@@ -1,2 +1,2 @@
 # SoftUni-Python
-Here I upload the exercises I do for the SoftUni Python courses.
+Here I upload the exercises for the SoftUni Python courses.
