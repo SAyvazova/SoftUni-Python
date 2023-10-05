@@ -1,12 +1,9 @@
 numbers = input()
 list_numbers = list(map(int, numbers.split(" ")))
-created_list = []
+opposite_list = []
 
 for number in list_numbers:
+    current_number = -number
+    opposite_list.append(current_number)
 
-    if number <= 0:
-        created_list.append(abs(number))
-    else:
-        created_list.append(-number)
-
-print(created_list)
+print(opposite_list)
