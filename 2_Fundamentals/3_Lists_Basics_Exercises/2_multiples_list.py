@@ -2,8 +2,8 @@ factor = int(input())
 count = int(input())
 created_list = []
 
-for number in range(factor, count * factor + 1, factor):
-    created_list.append(number)
+for multiplier in range(1, count + 1):
+    created_list.append(factor * multiplier)
 
 print(created_list)
 
