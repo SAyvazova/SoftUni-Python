@@ -8,8 +8,6 @@ removed_numbers = sorted_list[:n]
 for removed_number in removed_numbers:
     list_integers.remove(removed_number)
 
-for index in range(len(list_integers)):
-    if index == len(list_integers) - 1:
-        print(list_integers[index])
-    else:
-        print(list_integers[index], end=", ")
+print(*list_integers, sep=", ")
+
+
