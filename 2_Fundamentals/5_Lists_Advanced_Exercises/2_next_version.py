@@ -8,11 +8,3 @@ for index in range(len(version) - 1, -1, -1):
             version[index-1] += 1
 
 print('.'.join(str(number) for number in version))
-
-# version_as_number = int("".join(input().split('.')))
-# next_version = ".".join(str(version_as_number + 1))
-# print(next_version)
-
-# version_as_number = int(input().replace(".","")
-# next_version = ".".join(str(version_as_number + 1))
-# print(next_version)

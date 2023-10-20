@@ -8,5 +8,3 @@ print(f"Positive: {', '.join(positive_nums)}")
 print(f"Negative: {', '.join(negative_nums)}")
 print(f"Even: {', '.join(even_nums)}")
 print(f"Odd: {', '.join(odd_nums)}")
-
-
